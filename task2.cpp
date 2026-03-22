@@ -1,6 +1,8 @@
 /*
- * Project 4: Camera Calibration and Augmented Reality
- * Task 2: Select Calibration Images
+ * Name: Sushma Ramesh, Dina Barua
+ * Date: March 22, 2026
+ * Purpose: Task 2 - Interactively select and save calibration frames.
+ *          Stores 2D corner locations and 3D world points for calibration.
  *
  * Builds on Task 1 by letting the user save frames for calibration.
  * Saves both the 2D corner locations and the 3D world points.
@@ -9,7 +11,6 @@
  *   's' - save current frame (only if corners are detected)
  *   'q' / ESC - quit
  */
-
 #include <opencv2/opencv.hpp>
 #include <iostream>
 #include <vector>

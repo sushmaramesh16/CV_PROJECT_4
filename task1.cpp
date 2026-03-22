@@ -1,6 +1,8 @@
 /*
- * Project 4: Camera Calibration and Augmented Reality
- * Task 1: Detect and Extract Target Corners
+ * Name: Sushma Ramesh, Dina Barua
+ * Date: March 22, 2026
+ * Purpose: Task 1 - Detect and extract chessboard corners in real-time
+ *          using findChessboardCorners, cornerSubPix, and drawChessboardCorners
  *
  * Controls:
  *   'q' / ESC - quit

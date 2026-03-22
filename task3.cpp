@@ -1,6 +1,9 @@
 /*
- * Project 4: Camera Calibration and Augmented Reality
- * Task 3: Calibrate the Camera
+ * Name: Sushma Ramesh, Dina Barua
+ * Date: March 22, 2026
+ * Purpose: Task 3 - Calibrate the camera using saved calibration frames.
+ *          Computes camera matrix and distortion coefficients via
+ *          cv::calibrateCamera and saves intrinsic parameters to file.
  *
  * Builds on Tasks 1 & 2. Loads previously saved calib_frame_N.png files
  * automatically, then lets the user calibrate and save intrinsic parameters.
@@ -11,7 +14,6 @@
  *   'w' - write intrinsic parameters to intrinsic_params.yml
  *   'q' / ESC - quit
  */
-
 #include <opencv2/opencv.hpp>
 #include <iostream>
 #include <vector>
