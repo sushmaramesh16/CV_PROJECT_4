@@ -2,19 +2,21 @@
 CS 5330 - Computer Vision and Pattern Recognition
 Northeastern University
 
-## Author
-Sushma Reddy
+## Group Members
+- Sushma Ramesh
+- Dina Barua
 
-## Overview
-This project implements camera calibration using a checkerboard target
-and applies the calibration for augmented reality overlays.
+## GitHub Repository
+https://github.com/sushmaramesh16/CV_PROJECT_4
 
-## Files
+## Project Structure
 - `task1.cpp` - Detect and extract chessboard corners
 - `task2.cpp` - Select and save calibration images
 - `task3.cpp` - Calibrate the camera
 - `extension5.cpp` - Static images with AR overlay
 - `extension6.cpp` - Make target unrecognizable with mosaic
+- `CMakeLists.txt` - Build configuration
+- `intrinsic_params.yml` - Saved camera intrinsic parameters
 
 ## Build
 ```bash
@@ -30,6 +32,12 @@ cmake --build build
 ./build/extension5   # Static AR overlay
 ./build/extension6   # Mosaic overlay
 ```
+
+## Videos
+No videos submitted.
+
+## Time Travel Days
+Using 2 time travel days for this assignment.
 
 ## Dependencies
 - OpenCV 4.x
