@@ -1,10 +1,10 @@
 /*
  * ar_viewer.cpp
- * Dina Barua
+ * Name: Dina Barua, Sushma Ramesh
+ * Date: March 21,2026
  * Tasks 4, 5, 6, 7
- * March 2026
  *
- * One single program that covers all four of my tasks:
+ * Purpose: One single program that covers all four of my tasks:
  *
  *   Task 4 - reads the calibration my partner saved, detects the
  *            chessboard every frame, and uses solvePnP to figure
